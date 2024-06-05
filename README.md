@@ -1,4 +1,3 @@
-@mainpage
 # Aero553-BonusProject
 
 # Problem Statement
