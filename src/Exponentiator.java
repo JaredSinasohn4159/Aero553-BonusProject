@@ -104,6 +104,9 @@ public class Exponentiator {
         if(x <= 0){
             throw new ArithmeticException("Logarithm cannot take values less than zero.");
         }
+        if(x > 10000){
+            return Math.log(x);
+        }
         double curr_it = 1/((double)2*n+1)*int_power((x-1)/(x+1),2*n+1);
         try {
             if((prev_it - curr_it < tol && prev_it - curr_it > -1*tol) || n > 20000){
