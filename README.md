@@ -11,4 +11,4 @@ a = x^y
 \end{equation}
 
 Let $$\begin{equation} y = N + d \end{equation}
-
+$$ X^Y, \text{ where } \lbrace X,Y \in \mathbb{R} \rbrace $$
